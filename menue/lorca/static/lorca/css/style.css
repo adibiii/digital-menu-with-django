@@ -1,0 +1,256 @@
+  @font-face {
+    font-family: YekanBakhThin;
+    src: url('fonts/YekanBakh-Thin.ttf');
+  }
+
+  @font-face {
+    font-family: YekanBakhRegular;
+    src: url('fonts/YekanBakh-Regular.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhMedium;
+    src: url('fonts/YekanBakh-Medium.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhLight;
+    src: url('fonts/YekanBakh-Light.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhHeavy;
+    src: url('fonts/YekanBakh-Heavy.ttf');;
+  }
+
+
+  @font-face {
+    font-family: YekanBakhRegular;
+    src: url('fonts/YekanBakh-Regular.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhFat;
+    src: url('fonts/YekanBakh-Fat.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhBold;
+    src: url('fonts/YekanBakh-Bold.ttf');
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    font-family: "YekanBakhBold";
+  }
+
+
+  .mynav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgb(227, 202, 165);
+    background-color: rgb(227, 202, 165);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  ul.mynav li {
+    float: right;
+  }
+  
+  ul.mynav li a {
+    display: block;
+    color: rgb(154, 59, 59);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "YekanBakhBold";
+    
+  }
+  
+  ul.mynav li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  ul.mynav li a.active {
+    color: white;
+    background-color: rgb(154, 59, 59);
+  }
+  .main{
+    margin-top: 0px;
+  }
+
+  .about-us{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "YekanBakhBold"; 
+    /* background-color: white; */
+  }
+
+
+  .logo{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* margin-bottom: 10px; */
+    /* border: 1px solid black; */
+  }
+
+  .about-us h3{
+    text-align: right;
+  }
+
+  .about-row{
+  }
+
+  .myalert{
+    margin-top: 50px !important;
+  }
+
+  #menue{
+    margin-top: 2vh;
+  }
+
+  .menue-cards{
+    position: sticky;
+    top: 0px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-x: auto;
+    z-index: 1030;
+    /* margin: 4px, 4px; */
+    padding: 4px;
+    /* background-color: yellow; */
+    /* width: 300px; */
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.38);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    /* border: 2px solid black; */
+  }
+  /* /* To style the document scrollbar, remove `.custom-scrollbar` */
+  .menue-cards::-webkit-scrollbar {
+    width: 5%;
+    height: 4px;
+  }
+  .menue-cards::-webkit-scrollbar-track {
+    /* background : black; */
+    border-radius: 5px;
+  }
+  .menue-cards::-webkit-scrollbar-thumb {
+    background : rgb(154, 59, 59) ;
+    border-radius: 10px;
+    width: 5%;
+    /* box-shadow:  0 0 6px rgba(0, 0, 0, 0.5); */
+  }
+
+  .menue-title{
+    font-family: "YekanBakhBold";
+  }
+
+  .img-a img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  .card-img-col{
+    padding-top: 15px;
+    font-family: "YekanBakhBold";
+    display:inline-block;
+    margin-left: 3em
+  }
+
+  p.menue-title{
+    margin-bottom: 30px;
+  }
+
+  .hrs{
+    border: 1.5px solid rgb(154, 59, 59) ;
+  }
+  .text-divider {
+  --text-divider-gap: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .text-divider::before, .text-divider::after {
+    content: '';
+    height: 2px;
+    background-color: rgb(154, 59, 59);
+    flex-grow: 1;
+  }
+
+  .text-divider::before {
+    margin-right: var(--text-divider-gap);
+  }
+
+  .text-divider::after {
+    margin-left: var(--text-divider-gap);
+  }
+
+
+  .card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 0.3s;
+    /* width: 30%; */
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .card-caption {
+    padding: 2px 16px;
+    /* border: 2px solid rgb(154, 59, 59); */
+  }
+  .menue-items{
+    font-family: "YekanBakhBold"
+  }
+
+  .mymodal{
+    margin: 10px !important;
+  }
+  .mymodal-button{
+    background-color: rgb(154, 59, 59);
+    font-size: 10px;
+  }
+  .mymodal-submit{
+    background-color: rgb(154, 59, 59) !important;
+    color: white !important;
+  }

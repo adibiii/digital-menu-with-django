@@ -1,0 +1,100 @@
+  @font-face {
+    font-family: YekanBakhThin;
+    src: url('fonts/YekanBakh-Thin.ttf');
+  }
+
+  @font-face {
+    font-family: YekanBakhRegular;
+    src: url('fonts/YekanBakh-Regular.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhMedium;
+    src: url('fonts/YekanBakh-Medium.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhLight;
+    src: url('fonts/YekanBakh-Light.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhHeavy;
+    src: url('fonts/YekanBakh-Heavy.ttf');;
+  }
+
+
+  @font-face {
+    font-family: YekanBakhRegular;
+    src: url('fonts/YekanBakh-Regular.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhFat;
+    src: url('fonts/YekanBakh-Fat.ttf');
+  }
+
+
+  @font-face {
+    font-family: YekanBakhBold;
+    src: url('fonts/YekanBakh-Bold.ttf');
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    font-family: YekanBakhBold;
+  }
+
+
+  .mynav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgb(227, 202, 165);
+    background-color: rgb(227, 202, 165);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  ul.mynav li {
+    float: right;
+  }
+
+  ul.mynav li a {
+    display: block;
+    color: rgb(154, 59, 59);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "YekanBakhBold";
+
+  }
+
+  ul.mynav li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  ul.mynav li a.active {
+    color: white;
+    background-color: rgb(154, 59, 59);
+  }
+  .main{
+    margin-top: 51px;
+  }
